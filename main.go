@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	firstName, lastName := "John", "Doe"
+	age := 32
+	const HTTPStatusOK = 200
+	fmt.Println(firstName, lastName, age, "status", HTTPStatusOK)
 }
